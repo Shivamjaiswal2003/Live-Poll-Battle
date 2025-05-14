@@ -1,0 +1,53 @@
+.create-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; /* Leave space for the header */
+    text-align: center;
+    background-color: #fefefe;
+    padding: 20px;
+  }
+  
+  .create-page h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .create-page p {
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .create-page input {
+    width: 300px;
+    max-width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  .create-page input:focus {
+    border-color: #888;
+  }
+  
+  .create-page button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #f87171, #c084fc, #60a5fa);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .create-page button:hover {
+    transform: scale(1.05);
+  }
+  

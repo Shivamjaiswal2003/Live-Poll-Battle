@@ -1,0 +1,79 @@
+.voting-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .voting-left,
+  .voting-right {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .question-block {
+    margin-bottom: 20px;
+  }
+  
+  .question-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .timer-box {
+    background-color: #eee;
+    padding: 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .color-inputs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .color-inputs input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .poll-id {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+  }
+  

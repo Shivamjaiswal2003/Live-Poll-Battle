@@ -1,0 +1,31 @@
+.choose-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; /* Adjusted for header space */
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .choose-page h2 {
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+  }
+  
+  .choose-page button {
+    margin: 0.5rem;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(90deg, #f87171, #c084fc, #60a5fa);
+    transition: transform 0.2s ease;
+  }
+  
+  .choose-page button:hover {
+    transform: scale(1.05);
+  }
+  
